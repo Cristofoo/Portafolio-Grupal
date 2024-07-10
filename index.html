@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Grupal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Los Cuchuflis</h1>
+            <p class="description">Somos un pequeño grupo de desarrolladores con mucha creatividad en busca de
+                aceptacion
+            </p>
+        </div>
+    </header>
+<!-- inicio -->
+    <section id="nosotros" class="section">
+        <div class="container">
+            <h2>Nosotros</h2>
+            <p class="section-description">Este es nuestro Equipo</p>
+            <div class="team">
+                <div class="team-member">
+                    <img src="" alt="Equipo 1">
+                    <p>Cristofer Fuentes</p>
+                </div>
+                <div class="team-member">
+                    <img src="" alt="Equipo 2">
+                    <p>Sofia Caceres </p>
+                </div>
+                <div class="team-member">
+                    <img src="" alt="Equipo 1">
+                    <p>Giovanni Molinet </p>
+                </div>
+                <div class="team-member">
+                    <img src="" alt="Equipo 2">
+                    <p>Diego Rojas</p>
+                </div>
+                <div class="team-member">
+                    <img src="" alt="Equipo 1">
+                    <p>Emilia Arredondo</p>
+                </div>
+                <div class="team-member">
+                    <img src="" alt="Equipo 2">
+                    <p>Constanza Torres</p>
+                </div>
+                <!-- fin-->
+            </div>
+        </div>
+    </section>
+
+    <section id="proyecto" class="section">
+        <div class="container">
+            <h2>Nuestro Proyecto</h2>
+            <div class="project">
+                
+                <div class="project-info">
+                    <h3>Zona de Sacrificio</h3>
+                    <p>Esta pagina fue un proyecto para educacion ciudadana de <a
+                            href="https://cristofoo.github.io/zacrificio/" target="_blank">Zonas de Sacrificio</a></p>
+                </div>
+                <div class="project-info">
+                    <h3>Proyecto Principal</h3>
+                    <p>La idea que tenemos de proyecto principal es una web de venta de postres y otras cosas variadas
+                        como jugos (estamos en proceso)
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="procesar_formulario.php" method="POST">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <div class="social-media">
+                <a href="#" class="social-link">Instagram</a>
+                <!-- Agregar más redes sociales según necesidad -->
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
